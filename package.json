@@ -1,0 +1,21 @@
+{
+  "name": "online-banking-web-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run client\" \"npm run backendDev\"",
+    "dev": "concurrently \"npm run client\" \"npm run backendDev\"",
+    "backend": "npm start --prefix backend",
+    "backendDev": "npm run dev --prefix backend",
+    "client": "npm start --prefix frontend",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "concurrently": "^8.2.2"
+  }
+}
