@@ -1,23 +1,33 @@
-💳 Fullstack Internet Banking Web Application
-A secure, full-featured online banking app built with the MERN stack (MongoDB, Express.js, React, Node.js). It enables users to manage accounts, transfer funds, and view transaction history — all through a modern and responsive interface.
+# 💳 Fullstack Internet Banking Web Application
 
-🔧 Tech Stack
-Frontend: React, Axios, React Router
+A secure and modern **full-stack banking web application** built using **MERN stack (MongoDB, Express, React, Node.js)** with **TypeScript** and **Tailwind CSS**. It enables customers to register, log in, view their accounts, and perform transactions in a seamless and responsive interface.
 
-Backend: Node.js, Express.js, MongoDB, Mongoose
+---
 
-Security: JWT Authentication, Middleware Validation
+## 🚀 Features
 
-🚀 Features
-User Registration & Login
+### 🧑‍💼 User Features
+- ✅ User Registration & Login (JWT-authenticated)
+- 💼 View Account Summary
+- 🔄 Transfer Funds Between Accounts
+- 📜 View Transaction History
 
-Protected Routes with JWT
+### 🛠 Admin/Back-office (optional extension)
+- 👥 Manage Customer Profiles
+- 💳 Review Transactions
+- ⚙ Secure APIs with role-based access (easily extendable)
 
-View Account Balance & Transactions
+---
 
-Transfer Funds to Other Users
+## 🧰 Tech Stack
 
-Role-Based Access Controls
+| Layer      | Technology                        |
+|------------|-----------------------------------|
+| Frontend   | React + TypeScript + Tailwind CSS |
+| Backend    | Node.js + Express.js              |
+| Database   | MongoDB (Mongoose ODM)            |
+| Auth       | JWT (JSON Web Tokens)             |
+| Styling    | Tailwind CSS                      |
+| Tools      | Vite, Postman, ESLint             |
 
-Responsive UI
-
+---
